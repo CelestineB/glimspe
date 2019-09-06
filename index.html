@@ -12,42 +12,46 @@
 
 <body>
     <div class="container">
-        <header class="header">
-            <nav class="navbar">
-                <ul class="navbar_contian">
-                    <li class="navbar_item active">Home</li>
-                    <li class="navbar_item">About Us</li>
-                    <li class="navbar_item">Protfolio</li>
-                    <li class="navbar_item">Services</li>
-                    <li class="navbar_item">Contact Us</li>
-                </ul>
-                <ul class="navbar_social">
-                    <li class="navbar_social-item"> <i class="fab fa-facebook navbar_social-icon "></i> </li>
-                    <li class="navbar_social-item"> <i class="fab fa-twitter navbar_social-icon"></i></li>
-                    <li class="navbar_social-item"> <i class="fab fa-instagram navbar_social-icon"></i></li>
-                    <li class="navbar_social-item"> <i class="fab fa-skype navbar_social-icon"></i></li>
-                    <li class="navbar_social-item"> <i class="fab fa-google-plus navbar_social-icon"></i></li>
-                </ul>
-            </nav>
-            <h2 class="logo"> Selestine</h2>
-        </header>
-        <section class="middle">
+        <div class="container-fliud">
+            <header class="header">
+                <nav class="navbar">
+                    <ul class="navbar_contian">
+                        <li class="navbar_item active">Home</li>
+                        <li class="navbar_item">About Us</li>
+                        <li class="navbar_item">Protfolio</li>
+                        <li class="navbar_item">Services</li>
+                        <li class="navbar_item">Contact Us</li>
+                    </ul>
+                    <ul class="navbar_social">
+                        <li class="navbar_social-item"> <i class="fab fa-facebook navbar_social-icon "></i> </li>
+                        <li class="navbar_social-item"> <i class="fab fa-twitter navbar_social-icon"></i></li>
+                        <li class="navbar_social-item"> <i class="fab fa-instagram navbar_social-icon"></i></li>
+                        <li class="navbar_social-item"> <i class="fab fa-skype navbar_social-icon"></i></li>
+                        <li class="navbar_social-item"> <i class="fab fa-google-plus navbar_social-icon"></i></li>
+                    </ul>
+                </nav>
+                <h2 class="logo"> Selestine</h2>
+            </header>
+            <section class="middle">
 
-        </section>
-        <section class="footer">
-            <form action="#" method="POST" class="footer_box">
-                <h3 class="footer_box-title">Subscrip</h3>
-                <div class="footer_box-right">
-                    <input type="text" name="name" id="name" placeholder="Name :">
-                    <input type="text" name="email" id="email" placeholder="Email :">
-                </div>
-                <div class="footer_box-left">
-                    <input type="text" name="address" id="address" placeholder="Address :">
-                    <input type="text" id="number" placeholder="Number :">
-                </div>
-                <input type="submit" class="footer_box-button" value="Submit">
-            </form>
-        </section>
+            </section>
+            <section class="footer">
+                <form action="#" method="POST" class="footer_box">
+                    <h3 class="footer_box-title">Subscribs</h3>
+                    <div class="footer_box-right">
+                        <input type="text" name="name" id="name" placeholder="Name :">
+                        <input type="text" name="email" id="email" placeholder="Email :">
+                    </div>
+                    <div class="footer_box-left">
+                        <input type="text" name="address" id="address" placeholder="Address :">
+                        <input type="text" id="number" placeholder="Number :">
+                    </div>
+                    <input type="submit" class="footer_box-button" value="Submit">
+                </form>
+            </section>
+            <!-- footer ends -->
+        </div>
+        <!-- main container -->
         <section class="overlay">
             <div class="overlay_head">
                 <div class="overlay_head-container">
@@ -58,9 +62,61 @@
                     </p>
                     <button class="btn overlay-btn">Read More</button>
                 </div>
-            </div>
+                <div class="overlay_middle">
+                    <div class="overlay_middle-right">
+                        <h2 class="overlay_middle-right-t">Creative And Professional</h2>
+                        <p class="overlay_middle-right-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, mollitia cum accusantium quisquam </p>
+                        <p class="overlay_middle-right-p">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus saepe consequatur ab non rerum voluptatum alias
+                        </p>
+                        <button class="overlay_middle-right-btn">Read More</button>
+                    </div>
+                    <div class="overlay_middle-left">
+                        <h2>Our Team</h2>
+                        <div class="overlay_middle-left-box">
+                            <img src="img/love.jpg" alt="My Love" class="overlay_middle-left-image">
+                            <div class="">
+                                <h3>Ruth Nakeli</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, vero!</p>
+                            </div>
+                        </div>
+                        <div class="overlay_middle-left-box">
+                            <img src="img/linda.jpeg" alt="Linda" class="overlay_middle-left-image">
+                            <div>
+                                <h3>Linda</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, voluptate!</p>
+                            </div>
+                        </div>
+                        <div class="overlay_middle-left-box">
+                            <img src="img/sadrine.jpeg" alt="sadrine" class="overlay_middle-left-image">
+                            <div>
+                                <h3>Sadrine</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aspernatur?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay_footer">
+                    <h2 class="overlay_footer-title">Whatever the title</h2>
+                    <div class="overlay_footer-box-1">
+                        <ul class="overlay_footer-navbar">
+                            <li class="overlay_footer-navbar_item">Home</li>
+                            <li class="overlay_footer-navbar_item">Service</li>
+                            <li class="overlay_footer-navbar_item">Contact</li>
+                            <li class="overlay_footer-navbar_item">About Us</li>
+                        </ul>
+                    </div>
+                    <div class="overlay_footer-box-2">
+                        <img class="overlay_footer-box-img" src="img/Gift.jpg" alt="">
+                        <img class="overlay_footer-box-img" src="img/SUPPORT.png" alt="">
+                        <img class="overlay_footer-box-img" src="img/dreamtran.png" alt="">
+                        <img class="overlay_footer-box-img" src="img/support2.png" alt="">
+                    </div>
 
+                </div>
+            </div>
         </section>
+
     </div>
 </body>
 

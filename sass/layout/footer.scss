@@ -1,11 +1,12 @@
 .footer {
     height: 60vh;
     background: #272626;
-    position: relative;
+    //position: relative;
+    overflow: scroll;
     &_box {
         width: 50%;
         margin: auto;
-        padding-top: 8rem;
+        padding-top: 10rem;
         &-title {
             text-align: center;
             color: #fff;
@@ -28,7 +29,6 @@
         &-left input {
             width: 45%;
             margin: .3rem;
-            display: inline;
             padding: .5rem;
         }
     }
